@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 announcer.innerHTML = 'Player <span class="playerO">O</span> Menang';
                 break;
             case PLAYERX_WON:
-                announcer.innerHTML = 'Player <span class="playerX">X</span> Mena';
+                announcer.innerHTML = 'Player <span class="playerX">X</span> Menang';
                 break;
             case TIE:
                 announcer.innerText = 'Seri';
